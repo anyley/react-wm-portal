@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 import PortalLayer from './PortalLayer'
-import type { Actions } from '../../src/Portal'
+import type { Actions } from '../../src'
 
 
 type PortalState = {

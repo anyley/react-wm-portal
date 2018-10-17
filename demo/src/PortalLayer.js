@@ -1,8 +1,8 @@
 //@flow
 import * as React from 'react'
 import { Component } from 'react'
-import { Portal } from '../../src/Portal'
-import type { Actions } from '../../src/Portal'
+import { Portal } from '../../src'
+import type { Actions } from '../../src'
 
 
 type Props = {

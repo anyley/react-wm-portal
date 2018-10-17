@@ -12,9 +12,9 @@ type PortalChildren =
   | React.Element<any>
   | Iterable<?React.Node>
 
-type Portals = { ...PortalRecord }
+export type Portals = { ...PortalRecord }
 
-type PortalType = {
+export type PortalType = {
   id: string,
   el?: ?HTMLElement,
   status: number,
@@ -27,7 +27,7 @@ type PortalType = {
 }
 
 type PortalRecord = {| [string]: PortalType |}
-type PortalId = string | PortalType
+export type PortalId = string | PortalType
 type PortalPair = {| id: string, portal: PortalType |}
 
 export type Actions = {
@@ -46,7 +46,7 @@ type Props = {|
   children?: PortalChildren,
 |}
 
-type PortalState = {|
+export type PortalState = {|
   status: number,
   visibility: number
 |}
@@ -357,3 +357,5 @@ export class Portal extends React.Component<Props> {
     return null
   }
 }
+
+export default Portal
