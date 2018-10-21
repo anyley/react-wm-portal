@@ -1,6 +1,6 @@
 {
   "name": "@react-wm/core",
-  "version": "0.1.0",
+  "version": "1.0.3",
   "description": "react-wm core",
   "main": "lib/index.js",
   "module": "es/index.js",
