@@ -1,5 +1,5 @@
 {
-  "name": "react-wm-portal",
+  "name": "@react-wm/portal",
   "version": "1.0.1",
   "description": "react-wm-portal React component",
   "main": "lib/index.js",
@@ -19,7 +19,6 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": "16.x"
   },
@@ -29,6 +28,7 @@
     "eslint-plugin-flowtype": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "flow-bin": "^0.83.0",
+    "lerna": "^3.4.3",
     "nwb": "0.23.x",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
@@ -40,7 +40,11 @@
   "keywords": [
     "react-component",
     "react-wm",
-    "react-wm-portal",
-    "portal"
-  ]
+    "core",
+    "portal",
+    "window"
+  ],
+  "dependencies": {
+    "@react-wm/core": "^1.0.1"
+  }
 }
