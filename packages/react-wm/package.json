@@ -29,9 +29,7 @@
     "eslint-plugin-flowtype": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "flow-bin": "^0.83.0",
-    "nwb": "0.23.x",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "nwb": "0.23.x"
   },
   "author": "",
   "homepage": "",
