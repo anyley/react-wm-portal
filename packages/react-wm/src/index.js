@@ -1,5 +1,7 @@
 //@flow
 
+export const exportableFunction = (n: any) => console.log(n)
+const internalFunction = (n: any) => console.log(n)
 
 type ReactWMType = {|
   constants: {},
