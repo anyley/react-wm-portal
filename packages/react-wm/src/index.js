@@ -1,5 +1,6 @@
 //@flow
 
+
 type ReactWMType = {|
   constants: {},
   portals: {}
